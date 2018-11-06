@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2623,9 +2623,6 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
-<param name="checkNames" value="1"/>
-<param name="checkWireStubs" value="1"/>
-<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2729,10 +2726,10 @@ design rules under a new name.</description>
 <element name="C5" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 10PF C0G 0402" x="15.08125" y="22.86" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.12875" y="23.33625" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
-<element name="C7" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 1NF C0G 0402" x="17.145" y="21.74875" smashed="yes">
+<element name="C7" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 1000PF C0G 0402" x="17.145" y="21.74875" smashed="yes">
 <attribute name="NAME" x="14.12875" y="21.11375" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
-<element name="C1" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 10NF C0G 0402" x="19.05" y="25.7175" smashed="yes" rot="R90">
+<element name="C1" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 10000PF X7R 0402" x="19.05" y="25.7175" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.79625" y="25.7175" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="C4" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 100PF C0G 0402" x="20.16125" y="24.13" smashed="yes">
@@ -2747,10 +2744,10 @@ design rules under a new name.</description>
 <element name="C3" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 8.2PF C0G 0402" x="12.065" y="24.13" smashed="yes">
 <attribute name="NAME" x="11.27125" y="24.765" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="L2" library="rcl-modified-footprints" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 24NF 0402" x="19.685" y="22.225" smashed="yes" rot="R90">
+<element name="L2" library="rcl-modified-footprints" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 24NH 0402" x="19.685" y="22.225" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.32" y="21.2725" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="L1" library="rcl-modified-footprints" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 20NF 0402" x="14.12875" y="24.13" smashed="yes">
+<element name="L1" library="rcl-modified-footprints" package="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 20NH 0402" x="14.12875" y="24.13" smashed="yes">
 <attribute name="NAME" x="13.17625" y="24.765" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
 <element name="Q1" library="ee242a-lab-components" package="SOT343R" value="BFG403W" x="17.78" y="23.495" smashed="yes">
@@ -2790,13 +2787,13 @@ design rules under a new name.</description>
 <element name="C17" library="rcl-modified-footprints" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="CAP CER 0.1UF 25V X7R 0603 10%" x="19.20875" y="10.4775" smashed="yes">
 <attribute name="NAME" x="20.6375" y="10.00125" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C15" library="rcl-modified-footprints" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="CAP CER 15PF 25V X7R 0603 10%" x="16.8275" y="13.81125" smashed="yes" rot="R270">
+<element name="C15" library="rcl-modified-footprints" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="CAP CER 15PF C0G 0603" x="16.8275" y="13.81125" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.44625" y="14.76375" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="C12" library="rcl-modified-footprints" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="CAP CER 0.1UF 25V X7R 0603 10%" x="20.16125" y="17.30375" smashed="yes">
 <attribute name="NAME" x="21.59" y="16.8275" size="0.8128" layer="25" font="vector" ratio="16"/>
 </element>
-<element name="C13" library="rcl" package="C0805" value="CAP CER 10UF 16V X7R 0805 20%" x="16.1925" y="16.98625" smashed="yes" rot="R180">
+<element name="C13" library="rcl" package="C0805" value="CAP CER 10UF 10V X7R 0805" x="16.1925" y="16.98625" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.2875" y="17.78" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="C8" library="rcl-modified-footprints" package="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 10PF C0G 0402" x="18.7325" y="20.6375" smashed="yes" rot="R180">
@@ -2819,7 +2816,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="08B906" x="19.05" y="1.27" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="12.7" y="1.27" size="1.27" layer="27" font="vector" ratio="16" rot="R90"/>
 </element>
-<element name="C16" library="rcl" package="C0805" value="CAP CER 10UF 16V X7R 0805 20%" x="15.71625" y="10.4775" smashed="yes" rot="R180">
+<element name="C16" library="rcl" package="C0805" value="CAP CER 10UF 10V X7R 0805" x="15.71625" y="10.4775" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.81125" y="11.27125" size="0.8128" layer="25" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="R6" library="rcl-modified-footprints" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="50R" x="17.78" y="8.09625" smashed="yes" rot="R180">
@@ -3316,13 +3313,6 @@ design rules under a new name.</description>
 <wire x1="19.05" y1="8.09625" x2="18.73" y2="8.09625" width="1.143" layer="1"/>
 </signal>
 </signals>
-<mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
-<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
-</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
