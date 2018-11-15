@@ -14233,10 +14233,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C1" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 10000PF X7R 0402"/>
 <part name="C4" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 100PF C0G 0402"/>
 <part name="R3" library="rcl-modified-footprints" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="RES SMD 1.6K OHM 1% 1/10W 0402"/>
-<part name="R2" library="rcl-modified-footprints" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="RES SMD 1.4K OHM 1% 1/10W 0402"/>
-<part name="L2" library="rcl-modified-footprints" deviceset="L-EU" device="0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 24NH 0402"/>
-<part name="L1" library="rcl-modified-footprints" deviceset="L-EU" device="0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 20NH 0402"/>
-<part name="C2" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 2.4PF C0G 0402"/>
+<part name="R2" library="rcl-modified-footprints" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="RES SMD 1.74K OHM 1% 1/10W 0402"/>
+<part name="L2" library="rcl-modified-footprints" deviceset="L-EU" device="0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 30NH 0402"/>
+<part name="L1" library="rcl-modified-footprints" deviceset="L-EU" device="0402" package3d_urn="urn:adsk.eagle:package:23547/1" value="IND 26NH 0402"/>
+<part name="C2" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 2.2PF C0G 0402"/>
 <part name="C6" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 2.7PF C0G 0402"/>
 <part name="C3" library="rcl-modified-footprints" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="CAP CER 8.2PF C0G 0402"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14285,7 +14285,10 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="129.54" y="121.92" size="1.778" layer="98">USE 30nH, 0402 has higher SRF</text>
+<text x="116.84" y="58.42" size="0.8128" layer="98">Previously 2.4pF</text>
+<text x="104.14" y="88.9" size="0.8128" layer="98">Previously 1.40k</text>
+<text x="116.84" y="76.2" size="0.8128" layer="98">Add 51R1 base res</text>
+<text x="91.44" y="73.66" size="0.8128" layer="98">Previously 20nH</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="129.54" y="78.74" smashed="yes">
